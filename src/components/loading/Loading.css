@@ -1,0 +1,43 @@
+.spinner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .pulse-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60px; /* Width of the entire loader */
+  }
+  
+  .pulse-bubble {
+    width: 15px; /* Width of each bubble */
+    height: 15px; /* Height of each bubble */
+    border-radius: 50%;
+    background-color: #2b8aff; /* Color of the bubbles */
+    border: 1px solid rgb(244, 188, 188);
+    animation: pulse 0.6s infinite ease-in-out;
+  }
+  
+  .pulse-bubble-1 {
+    animation-delay: 0s; /* No delay for the first bubble */
+  }
+  
+  .pulse-bubble-2 {
+    animation-delay: 0.2s; /* Delay for the second bubble */
+  }
+  
+  .pulse-bubble-3 {
+    animation-delay: 0.4s; /* Delay for the third bubble */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1); /* Normal size */
+    }
+    50% {
+      transform: scale(1.5); /* Scaled up size */
+    }
+  }
+  

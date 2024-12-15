@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blogContainerHeading{
+    background: #8A24F1;
+   padding-bottom: 59px;
+   margin-top:70px !important;
+}
+.blogContainerHeading .dashboardHerosection{
+    width: 347px;
+}
+.blogContainerHeading .dashboardHerosection img {
+width: 100%;
+height: 100%;
+}
+.blogHeading{
+    color: #000;
+        font-family: Outfit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+}
+.blogImg{
+  
+        height:370px;
+        flex-shrink: 0;
+}
+.blogImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.blogs h2{
+    color: #000;
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.blogs h3{
+    color: #000;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.blogs .title{
+color: #9D9D9D;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.blogArticle h5{
+    color: #000;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.blogArticle h4{
+    color: #000;
+        font-family: Outfit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.blogArticle p{
+    color: #9C9C9C;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.blogTestimonial{
+    width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+
+}
+.blogTestimonial img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.blogCardSection{
+    border-top: 1px solid #E7E7E7;border-bottom: 1px solid #E7E7E7;
+    
+}
+.blogCard h6{
+    color: #626262;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.blogCard h5{
+    color: #000;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.blogCard p{
+    color: #626262;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.hiringPortal{
+    border-radius: 10px;
+        background: #8A24F1;
+        padding: 20px 50px;
+}
+.hiringPortal h2{
+    color: #FFF;
+        font-family: Outfit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.hiringPortal h3{
+    color: #FFF;
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.hiringPortal button{
+    border: none;
+    background: transparent;
+border-radius: 50px;
+    border: 1px solid #FFF;
+    color: #fff;
+   
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px 25px;
+}
+.hiringPortalImg{
+   width: 352px;
+}
+.hiringPortalImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* .container{
+    width: 1120px !important;
+} */

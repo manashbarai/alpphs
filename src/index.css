@@ -1,0 +1,71 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(255, 255, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add this CSS rule to your stylesheet or inline style */
+.ql-container {
+  border: none !important; /* Remove the border */
+  outline: none !important; /* Optional: remove outline if any */
+}
+
+.dashBoard-bg {
+  background: linear-gradient(180deg, rgba(70, 37, 37, 0.88) 0.13%, rgba(141, 141, 141, 0.88) 153.35%);
+ 
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.5);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  overflow: hidden;
+}
+
+.dashBoard-bg::after {
+  background: conic-gradient(
+    from 145deg at 50% 50%, 
+    #ffffff 0deg, 
+    #e1e1e1 82.8deg, 
+    #491248 176.4deg, 
+    #685308 261deg, 
+    #ffffff 360deg
+  );
+  border-radius: 50%;
+  content: "";
+  filter: blur(40px);
+  height: 439.443px;
+  left: 0;
+  mix-blend-mode: color;
+  position: absolute;
+  top: 170px;
+  transform: rotate(-117.73deg);
+  width: inherit;
+}
+
+.text-robot {
+  font-family: "IBM Plex Mono", monospace;
+}
+.custom-toast {
+  background-color: #3f2121; /* Green background for success */
+  color: white; /* White text */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+}
+
+
+
+/* <canvas id="gradient-canvas" data-transition-in="true" width="1536" height="600" class="isLoaded"></canvas> */
